@@ -1,13 +1,14 @@
 # Palo Challenge
-![Version](https://img.shields.io/github/release/Macro303/Neptunes-Pride.svg?label=version)
-![Latest](https://img.shields.io/github/tag-pre/Macro303/Neptunes-Pride.svg?label=latest&colorB=orange)
-![Issues](https://img.shields.io/github/issues/Macro303/Neptunes-Pride.svg?label=issues)
-![Contributors](https://img.shields.io/github/contributors/Macro303/Neptunes-Pride.svg?label=contributors)
+![Version](https://img.shields.io/github/release/Macro303/Palo-Challenge.svg?label=version)
+![Latest](https://img.shields.io/github/tag-pre/Macro303/Palo-Challenge.svg?label=latest&colorB=orange)
+![Issues](https://img.shields.io/github/issues/Macro303/Palo-Challenge.svg?label=issues)
+![Contributors](https://img.shields.io/github/contributors/Macro303/Palo-Challenge.svg?label=contributors)
 
 A simple Web App that takes a name and after converting it to ASCII then Binary counts the largest number of consecutive zeros.
 
 ## Dependencies
  - JDK 1.8
+ - Gradle 5.1.1
  - [kotlin-stdlib-jdk8: 1.3.20](https://kotlinlang.org/)
  - [kotson: 2.5.0](https://github.com/SalomonBrys/Kotson)
  - [ktor-server-netty: 1.1.2](https://ktor.io/)
