@@ -11,33 +11,21 @@
 </head>
 
 <body>
-<div class="ui relaxed stackable grid">
-	<div class="three wide column">
-		<div class="ui left fixed inverted vertical menu">
-			<div class="header item">
-				<img class="ui small centered image" src="http://palo-it.com/wp-content/uploads/2017/06/logo_website.png">
-			</div>
+<div class="ui container">
+	<div class="ui fluid inverted container segment">
+		<h1 class="ui center aligned icon header">
+			<i class="circular calculator icon"></i>
+			Count the Zeros
+		</h1>
+		<div class="ui fluid inverted action input">
+			<input type="text" placeholder="Name" id="name">
+			<button class="ui button">Count</button>
 		</div>
-	</div>
-	<div class="ui twelve wide stretched column container" style="margin-top: 25px; margin-bottom: 25px;">
-		<div class="ui raised very padded segment inverted opacity">
-			<h1 class="ui center aligned icon header">
-				<i class="circular calculator icon"></i>
-				Count the Zeros
-			</h1>
-			<div class="ui fluid inverted action input">
-				<input type="text" placeholder="Name" id="name">
-				<button class="ui button">Count</button>
-			</div>
-			<div class="ui one column stackable center aligned container grid">
-				<div class="column twelve wide">
-					<div class="ui orange inverted statistic">
-						<div class="value" id="output">
-						</div>
-						<div class="label">
-							Output
-						</div>
-					</div>
+		<div class="ui one column stackable center aligned container grid">
+			<div class="column twelve wide">
+				<div class="ui horizontal orange inverted statistic">
+					<div class="label">Result</div>
+					<div class="value" id="output"></div>
 				</div>
 			</div>
 		</div>
