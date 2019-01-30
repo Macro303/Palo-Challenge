@@ -23,6 +23,9 @@ import macro.challenge.data.ErrorMessage
 import macro.challenge.data.PersonController.personRoutes
 import org.apache.logging.log4j.LogManager
 
+/**
+ * Created by Macro303 on 2019-Jan-30.
+ */
 object Server {
 	internal val LOGGER = LogManager.getLogger(Server::class.java)
 
