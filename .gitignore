@@ -1,0 +1,17 @@
+# =====Folders=====
+.gradle/
+.idea/
+.settings/
+.vscode/
+bin/
+build/
+gradle/
+logs/
+
+# =====Files=====
+*.iml
+.classpath
+.project
+
+# =====Challenge=====
+*.db
