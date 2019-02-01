@@ -43,8 +43,10 @@ object PersonController {
 			contentType(contentType = ContentType.Application.Json) {
 				post {
 					val request = parseRequest(call = call) ?: return@post
+					val names = (request["Name"] as String).split(" ")
 					val zeroCount = PersonTable.insert(
-						name = request["Name"] as String
+						firstName = names.getOrNull(0) ?: "",
+						lastName = names.getOrNull(1) ?: ""
 					)?.zeroCount ?: 0
 					call.respond(
 						message = mapOf("Count" to zeroCount),

@@ -6,7 +6,8 @@ import org.apache.logging.log4j.LogManager
  * Created by Macro303 on 2019-Jan-30.
  */
 data class Person(
-	var name: String,
+	var firstName: String,
+	var lastName: String,
 	var zeroCount: Int
 ) {
 
