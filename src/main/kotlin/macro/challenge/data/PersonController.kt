@@ -22,7 +22,7 @@ object PersonController {
 
 	suspend fun parseRequest(call: ApplicationCall): Map<String, Any?>? {
 		val body = call.receiveText().fromJSON()
-		LOGGER.info("Received Body: $body")
+		LOGGER.debug("Body: $body")
 		val name: String? = body["Name"] as String?
 		when {
 			body.isEmpty() -> call.respond(

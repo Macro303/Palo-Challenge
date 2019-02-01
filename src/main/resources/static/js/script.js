@@ -1,5 +1,4 @@
 function getCount(name){
-	console.log("Name: " + name);
 	$.ajax({
 		url: "/person",
 		type: 'POST',
